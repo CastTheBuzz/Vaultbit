@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.dev.vars
+setup/state.json
+VAULTBIT-LINK.txt
+tests/out/
+tests/fixtures/
+__pycache__/
+*.vbk
+*.tgz

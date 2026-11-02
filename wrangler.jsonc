@@ -1,0 +1,13 @@
+{
+  "name": "vaultbit",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": true },
+  "d1_databases": [
+    // filled in automatically by setup/setup.mjs (deploy.bat)
+    { "binding": "DB", "database_name": "vaultbit", "database_id": "REPLACED_BY_SETUP" }
+  ],
+  // the one address allowed to receive login codes — set by setup
+  "vars": { "OWNER_EMAIL": "REPLACED_BY_SETUP" },
+  "workers_dev": true
+}

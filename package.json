@@ -1,0 +1,16 @@
+{
+  "name": "vaultbit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal zero-knowledge vault for passwords and files, on Cloudflare Workers + D1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "node setup/setup.mjs",
+    "test": "bash tests/run_all.sh"
+  },
+  "devDependencies": {
+    "hash-wasm": "^4.12.0",
+    "wrangler": "^4.156.0"
+  }
+}
